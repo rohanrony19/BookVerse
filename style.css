@@ -1,0 +1,61 @@
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+  }
+  
+  body {
+    background: #f0f4f8;
+  }
+  
+  h1 {
+    font-weight: 700;
+    color: #343a40;
+  }
+  body.dark-mode {
+    background-color: #121212;
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .card {
+    background-color: #1f1f1f;
+    border-color: #3e1e7a; /* darker purple border */
+    color: #f0f0f0;
+  }
+  
+  body.dark-mode .btn-primary {
+    background-color: #6e29cd;  /* your purple */
+    border-color: #6e29cd;
+  }
+  
+  body.dark-mode .btn-primary:hover {
+    background-color: #5923a6; /* slightly darker purple on hover */
+    border-color: #5923a6;
+  }
+  
+  body.dark-mode .btn-outline-danger {
+    color: #d96ef2;
+    border-color: #d96ef2;
+  }
+  
+  body.dark-mode .btn-outline-danger:hover {
+    background-color: #6e29cd;
+    color: #fff;
+    border-color: #6e29cd;
+  }
+  
+  body.dark-mode .form-check-label {
+    color: #f0f0f0;
+  }
+  
+  /* Optional: Customize the toggle switch colors */
+  
+  .form-check-input:checked {
+    background-color: #6e29cd;
+    border-color: #6e29cd;
+  }
+  
+  .form-check-input:focus {
+    border-color: #6e29cd;
+    box-shadow: 0 0 0 0.25rem rgba(110, 41, 205, 0.5);
+  }
+  
